@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5DF171671D2F387D00FA9896 /* version1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF171661D2F387D00FA9896 /* version1.swift */; };
+		5DF22AA81D301957009DCB70 /* version2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF22AA71D301957009DCB70 /* version2.swift */; };
+		5DF22AAC1D3053A9009DCB70 /* restartButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DF22AAB1D3053A9009DCB70 /* restartButton.png */; };
+		5DF22AAE1D305684009DCB70 /* MSButtonNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF22AAD1D305684009DCB70 /* MSButtonNode.swift */; };
 		5DF771581D2C4BAC00CF2B61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF771571D2C4BAC00CF2B61 /* AppDelegate.swift */; };
 		5DF7715A1D2C4BAC00CF2B61 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5DF771591D2C4BAC00CF2B61 /* GameScene.sks */; };
 		5DF7715C1D2C4BAC00CF2B61 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF7715B1D2C4BAC00CF2B61 /* GameScene.swift */; };
@@ -36,7 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5DF771541D2C4BAC00CF2B61 /* Block Hop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Block Hop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DF171661D2F387D00FA9896 /* version1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = version1.swift; sourceTree = "<group>"; };
+		5DF22AA71D301957009DCB70 /* version2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = version2.swift; sourceTree = "<group>"; };
+		5DF22AAB1D3053A9009DCB70 /* restartButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = restartButton.png; sourceTree = "<group>"; };
+		5DF22AAD1D305684009DCB70 /* MSButtonNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSButtonNode.swift; sourceTree = "<group>"; };
+		5DF771541D2C4BAC00CF2B61 /* BlockHop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlockHop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DF771571D2C4BAC00CF2B61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5DF771591D2C4BAC00CF2B61 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		5DF7715B1D2C4BAC00CF2B61 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
@@ -45,10 +53,10 @@
 		5DF771621D2C4BAD00CF2B61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5DF771651D2C4BAD00CF2B61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5DF771671D2C4BAD00CF2B61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5DF7716C1D2C4BAD00CF2B61 /* Block HopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Block HopTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DF7716C1D2C4BAD00CF2B61 /* BlockHop.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlockHop.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DF771701D2C4BAD00CF2B61 /* Block_HopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Block_HopTests.swift; sourceTree = "<group>"; };
 		5DF771721D2C4BAD00CF2B61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5DF771771D2C4BAD00CF2B61 /* Block HopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Block HopUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DF771771D2C4BAD00CF2B61 /* BlockHop.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlockHop.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DF7717B1D2C4BAD00CF2B61 /* Block_HopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Block_HopUITests.swift; sourceTree = "<group>"; };
 		5DF7717D1D2C4BAD00CF2B61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -81,6 +89,7 @@
 		5DF7714B1D2C4BAC00CF2B61 = {
 			isa = PBXGroup;
 			children = (
+				5DF22AAD1D305684009DCB70 /* MSButtonNode.swift */,
 				5DF771561D2C4BAC00CF2B61 /* Block Hop */,
 				5DF7716F1D2C4BAD00CF2B61 /* Block HopTests */,
 				5DF7717A1D2C4BAD00CF2B61 /* Block HopUITests */,
@@ -91,9 +100,9 @@
 		5DF771551D2C4BAC00CF2B61 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5DF771541D2C4BAC00CF2B61 /* Block Hop.app */,
-				5DF7716C1D2C4BAD00CF2B61 /* Block HopTests.xctest */,
-				5DF771771D2C4BAD00CF2B61 /* Block HopUITests.xctest */,
+				5DF771541D2C4BAC00CF2B61 /* BlockHop.app */,
+				5DF7716C1D2C4BAD00CF2B61 /* BlockHop.xctest */,
+				5DF771771D2C4BAD00CF2B61 /* BlockHop.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,7 +112,10 @@
 			children = (
 				5DF771571D2C4BAC00CF2B61 /* AppDelegate.swift */,
 				5DF771591D2C4BAC00CF2B61 /* GameScene.sks */,
+				5DF22AAB1D3053A9009DCB70 /* restartButton.png */,
 				5DF7715B1D2C4BAC00CF2B61 /* GameScene.swift */,
+				5DF22AA71D301957009DCB70 /* version2.swift */,
+				5DF171661D2F387D00FA9896 /* version1.swift */,
 				5DF7715D1D2C4BAC00CF2B61 /* GameViewController.swift */,
 				5DF7715F1D2C4BAC00CF2B61 /* Main.storyboard */,
 				5DF771621D2C4BAD00CF2B61 /* Assets.xcassets */,
@@ -134,9 +146,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5DF771531D2C4BAC00CF2B61 /* Block Hop */ = {
+		5DF771531D2C4BAC00CF2B61 /* BlockHop */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5DF771801D2C4BAD00CF2B61 /* Build configuration list for PBXNativeTarget "Block Hop" */;
+			buildConfigurationList = 5DF771801D2C4BAD00CF2B61 /* Build configuration list for PBXNativeTarget "BlockHop" */;
 			buildPhases = (
 				5DF771501D2C4BAC00CF2B61 /* Sources */,
 				5DF771511D2C4BAC00CF2B61 /* Frameworks */,
@@ -146,14 +158,14 @@
 			);
 			dependencies = (
 			);
-			name = "Block Hop";
+			name = BlockHop;
 			productName = "Block Hop";
-			productReference = 5DF771541D2C4BAC00CF2B61 /* Block Hop.app */;
+			productReference = 5DF771541D2C4BAC00CF2B61 /* BlockHop.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5DF7716B1D2C4BAD00CF2B61 /* Block HopTests */ = {
+		5DF7716B1D2C4BAD00CF2B61 /* BlockHopTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5DF771831D2C4BAD00CF2B61 /* Build configuration list for PBXNativeTarget "Block HopTests" */;
+			buildConfigurationList = 5DF771831D2C4BAD00CF2B61 /* Build configuration list for PBXNativeTarget "BlockHopTests" */;
 			buildPhases = (
 				5DF771681D2C4BAD00CF2B61 /* Sources */,
 				5DF771691D2C4BAD00CF2B61 /* Frameworks */,
@@ -164,14 +176,14 @@
 			dependencies = (
 				5DF7716E1D2C4BAD00CF2B61 /* PBXTargetDependency */,
 			);
-			name = "Block HopTests";
+			name = BlockHopTests;
 			productName = "Block HopTests";
-			productReference = 5DF7716C1D2C4BAD00CF2B61 /* Block HopTests.xctest */;
+			productReference = 5DF7716C1D2C4BAD00CF2B61 /* BlockHop.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		5DF771761D2C4BAD00CF2B61 /* Block HopUITests */ = {
+		5DF771761D2C4BAD00CF2B61 /* BlockHopUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5DF771861D2C4BAD00CF2B61 /* Build configuration list for PBXNativeTarget "Block HopUITests" */;
+			buildConfigurationList = 5DF771861D2C4BAD00CF2B61 /* Build configuration list for PBXNativeTarget "BlockHopUITests" */;
 			buildPhases = (
 				5DF771731D2C4BAD00CF2B61 /* Sources */,
 				5DF771741D2C4BAD00CF2B61 /* Frameworks */,
@@ -182,9 +194,9 @@
 			dependencies = (
 				5DF771791D2C4BAD00CF2B61 /* PBXTargetDependency */,
 			);
-			name = "Block HopUITests";
+			name = BlockHopUITests;
 			productName = "Block HopUITests";
-			productReference = 5DF771771D2C4BAD00CF2B61 /* Block HopUITests.xctest */;
+			productReference = 5DF771771D2C4BAD00CF2B61 /* BlockHop.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -199,6 +211,7 @@
 				TargetAttributes = {
 					5DF771531D2C4BAC00CF2B61 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = R7Y8QKEC95;
 					};
 					5DF7716B1D2C4BAD00CF2B61 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -210,7 +223,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5DF7714F1D2C4BAC00CF2B61 /* Build configuration list for PBXProject "Block Hop" */;
+			buildConfigurationList = 5DF7714F1D2C4BAC00CF2B61 /* Build configuration list for PBXProject "BlockHop" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -223,9 +236,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5DF771531D2C4BAC00CF2B61 /* Block Hop */,
-				5DF7716B1D2C4BAD00CF2B61 /* Block HopTests */,
-				5DF771761D2C4BAD00CF2B61 /* Block HopUITests */,
+				5DF771531D2C4BAC00CF2B61 /* BlockHop */,
+				5DF7716B1D2C4BAD00CF2B61 /* BlockHopTests */,
+				5DF771761D2C4BAD00CF2B61 /* BlockHopUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -236,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5DF7715A1D2C4BAC00CF2B61 /* GameScene.sks in Resources */,
+				5DF22AAC1D3053A9009DCB70 /* restartButton.png in Resources */,
 				5DF771661D2C4BAD00CF2B61 /* LaunchScreen.storyboard in Resources */,
 				5DF771631D2C4BAD00CF2B61 /* Assets.xcassets in Resources */,
 				5DF771611D2C4BAC00CF2B61 /* Main.storyboard in Resources */,
@@ -263,8 +277,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DF171671D2F387D00FA9896 /* version1.swift in Sources */,
+				5DF22AAE1D305684009DCB70 /* MSButtonNode.swift in Sources */,
 				5DF7715C1D2C4BAC00CF2B61 /* GameScene.swift in Sources */,
 				5DF7715E1D2C4BAC00CF2B61 /* GameViewController.swift in Sources */,
+				5DF22AA81D301957009DCB70 /* version2.swift in Sources */,
 				5DF771581D2C4BAC00CF2B61 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -290,12 +307,12 @@
 /* Begin PBXTargetDependency section */
 		5DF7716E1D2C4BAD00CF2B61 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5DF771531D2C4BAC00CF2B61 /* Block Hop */;
+			target = 5DF771531D2C4BAC00CF2B61 /* BlockHop */;
 			targetProxy = 5DF7716D1D2C4BAD00CF2B61 /* PBXContainerItemProxy */;
 		};
 		5DF771791D2C4BAD00CF2B61 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5DF771531D2C4BAC00CF2B61 /* Block Hop */;
+			target = 5DF771531D2C4BAC00CF2B61 /* BlockHop */;
 			targetProxy = 5DF771781D2C4BAD00CF2B61 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -409,10 +426,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Block Hop/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.makeschool.Block-Hop";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.StephenEvaBlock-Hop";
+				PRODUCT_NAME = BlockHop;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -420,10 +441,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Block Hop/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.makeschool.Block-Hop";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.StephenEvaBlock-Hop";
+				PRODUCT_NAME = BlockHop;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -435,8 +460,8 @@
 				INFOPLIST_FILE = "Block HopTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.makeschool.Block-HopTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Block Hop.app/Block Hop";
+				PRODUCT_NAME = BlockHop;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlockHop.app/BlockHop";
 			};
 			name = Debug;
 		};
@@ -447,8 +472,8 @@
 				INFOPLIST_FILE = "Block HopTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.makeschool.Block-HopTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Block Hop.app/Block Hop";
+				PRODUCT_NAME = BlockHop;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlockHop.app/BlockHop";
 			};
 			name = Release;
 		};
@@ -459,7 +484,7 @@
 				INFOPLIST_FILE = "Block HopUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.makeschool.Block-HopUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = BlockHop;
 				TEST_TARGET_NAME = "Block Hop";
 			};
 			name = Debug;
@@ -470,7 +495,7 @@
 				INFOPLIST_FILE = "Block HopUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.makeschool.Block-HopUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = BlockHop;
 				TEST_TARGET_NAME = "Block Hop";
 			};
 			name = Release;
@@ -478,7 +503,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5DF7714F1D2C4BAC00CF2B61 /* Build configuration list for PBXProject "Block Hop" */ = {
+		5DF7714F1D2C4BAC00CF2B61 /* Build configuration list for PBXProject "BlockHop" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5DF7717E1D2C4BAD00CF2B61 /* Debug */,
@@ -487,29 +512,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5DF771801D2C4BAD00CF2B61 /* Build configuration list for PBXNativeTarget "Block Hop" */ = {
+		5DF771801D2C4BAD00CF2B61 /* Build configuration list for PBXNativeTarget "BlockHop" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5DF771811D2C4BAD00CF2B61 /* Debug */,
 				5DF771821D2C4BAD00CF2B61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		5DF771831D2C4BAD00CF2B61 /* Build configuration list for PBXNativeTarget "Block HopTests" */ = {
+		5DF771831D2C4BAD00CF2B61 /* Build configuration list for PBXNativeTarget "BlockHopTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5DF771841D2C4BAD00CF2B61 /* Debug */,
 				5DF771851D2C4BAD00CF2B61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		5DF771861D2C4BAD00CF2B61 /* Build configuration list for PBXNativeTarget "Block HopUITests" */ = {
+		5DF771861D2C4BAD00CF2B61 /* Build configuration list for PBXNativeTarget "BlockHopUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5DF771871D2C4BAD00CF2B61 /* Debug */,
 				5DF771881D2C4BAD00CF2B61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

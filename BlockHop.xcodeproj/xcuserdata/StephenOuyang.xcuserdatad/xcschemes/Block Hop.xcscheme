@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5DF771531D2C4BAC00CF2B61"
-               BuildableName = "Block Hop.app"
-               BlueprintName = "Block Hop"
-               ReferencedContainer = "container:Block Hop.xcodeproj">
+               BuildableName = "BlockHop.app"
+               BlueprintName = "BlockHop"
+               ReferencedContainer = "container:BlockHop.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5DF7716B1D2C4BAD00CF2B61"
-               BuildableName = "Block HopTests.xctest"
-               BlueprintName = "Block HopTests"
-               ReferencedContainer = "container:Block Hop.xcodeproj">
+               BuildableName = "BlockHop.xctest"
+               BlueprintName = "BlockHopTests"
+               ReferencedContainer = "container:BlockHop.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5DF771761D2C4BAD00CF2B61"
-               BuildableName = "Block HopUITests.xctest"
-               BlueprintName = "Block HopUITests"
-               ReferencedContainer = "container:Block Hop.xcodeproj">
+               BuildableName = "BlockHop.xctest"
+               BlueprintName = "BlockHopUITests"
+               ReferencedContainer = "container:BlockHop.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5DF771531D2C4BAC00CF2B61"
-            BuildableName = "Block Hop.app"
-            BlueprintName = "Block Hop"
-            ReferencedContainer = "container:Block Hop.xcodeproj">
+            BuildableName = "BlockHop.app"
+            BlueprintName = "BlockHop"
+            ReferencedContainer = "container:BlockHop.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5DF771531D2C4BAC00CF2B61"
-            BuildableName = "Block Hop.app"
-            BlueprintName = "Block Hop"
-            ReferencedContainer = "container:Block Hop.xcodeproj">
+            BuildableName = "BlockHop.app"
+            BlueprintName = "BlockHop"
+            ReferencedContainer = "container:BlockHop.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5DF771531D2C4BAC00CF2B61"
-            BuildableName = "Block Hop.app"
-            BlueprintName = "Block Hop"
-            ReferencedContainer = "container:Block Hop.xcodeproj">
+            BuildableName = "BlockHop.app"
+            BlueprintName = "BlockHop"
+            ReferencedContainer = "container:BlockHop.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
